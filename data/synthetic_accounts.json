@@ -1,0 +1,8 @@
+[
+  {"sam_account_name":"svc_legacy_reporting","enabled":true,"preauth_required":false,"password_age_days":412,"privileged":false,"service_account":true,"managed_identity":false,"interactive_logon":false,"criticality":"high","strong_authentication":false},
+  {"sam_account_name":"ops_admin_legacy","enabled":true,"preauth_required":false,"password_age_days":231,"privileged":true,"service_account":false,"managed_identity":false,"interactive_logon":true,"criticality":"critical","strong_authentication":false},
+  {"sam_account_name":"svc_managed_backup","enabled":true,"preauth_required":true,"password_age_days":14,"privileged":false,"service_account":true,"managed_identity":true,"interactive_logon":false,"criticality":"high","strong_authentication":true},
+  {"sam_account_name":"contractor_archive","enabled":false,"preauth_required":false,"password_age_days":615,"privileged":false,"service_account":false,"managed_identity":false,"interactive_logon":false,"criticality":"low","strong_authentication":false},
+  {"sam_account_name":"app_batch_user","enabled":true,"preauth_required":false,"password_age_days":102,"privileged":false,"service_account":true,"managed_identity":false,"interactive_logon":false,"criticality":"medium","strong_authentication":true},
+  {"sam_account_name":"tier1_support","enabled":true,"preauth_required":true,"password_age_days":33,"privileged":true,"service_account":false,"managed_identity":false,"interactive_logon":true,"criticality":"high","strong_authentication":true}
+]
